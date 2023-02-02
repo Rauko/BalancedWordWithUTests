@@ -17,6 +17,7 @@ public class BalancedWordsCounter {
 
             Map<String, Integer> letters = new HashMap<String, Integer>();
             Integer counter = numberOfLettersInWord(input,input.charAt(0));
+
             letters.put(String.valueOf(input.charAt(0)),counter);
 
             for(int i = 0; i < input.length(); i++) {
